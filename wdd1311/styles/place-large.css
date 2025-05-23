@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+picture, #weather {
+  flex: 1;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-image img {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.data-overlay {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-overlay {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
